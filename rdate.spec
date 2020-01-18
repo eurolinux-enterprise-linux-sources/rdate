@@ -1,7 +1,7 @@
 Summary: Tool for getting the date/time from a remote machine
 Name: rdate
 Version: 1.4
-Release: 23%{?dist}
+Release: 25%{?dist}
 License: GPLv2+
 Group: Applications/System
 Source: ftp://people.redhat.com/sopwith/%{name}-%{version}.tar.gz
@@ -37,6 +37,12 @@ make prefix=$RPM_BUILD_ROOT/usr install
 %{_mandir}/man1/rdate.1*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4-25
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-24
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.4-23
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
